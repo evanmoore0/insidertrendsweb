@@ -15,7 +15,7 @@ const IndexPage: NextPage = () => {
         </h1>
 
         <Image
-        src = {"/iconweb.png"}
+        src = {"/plzwork.png"}
         width= {400}
         height={400}
         />
