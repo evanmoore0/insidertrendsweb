@@ -1,4 +1,5 @@
 import { NextPage } from 'next'
+import Image from 'next/image'
 
 import ReactPlayer from 'react-player'
 
@@ -13,18 +14,10 @@ const IndexPage: NextPage = () => {
           Insider Trends
         </h1>
 
-        <ReactPlayer
-
-        playing = {true}
-
-          style={{
-            borderRadius: "2vw",
-            overflow: "hidden",
-            position: "relative"
-          }}
-          width="60vw"
-          height="80vh"
-          url={`videos/InsiderPreview.mp4`}
+        <Image
+        src = {"/iconweb.png"}
+        width= {400}
+        height={400}
         />
 
 
