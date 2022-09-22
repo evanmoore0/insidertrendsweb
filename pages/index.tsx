@@ -1,5 +1,6 @@
 import { NextPage } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import ReactPlayer from 'react-player'
 
@@ -13,6 +14,14 @@ const IndexPage: NextPage = () => {
         <h1 style={{ color: "white", fontFamily: "monospace" }}>
           Insider Trends
         </h1>
+
+        <Link href={'/privacy-policy'}>
+
+          <h2 style={{color: "white", fontFamily: "monospace", cursor: "pointer"}}>
+              Privacy Policy
+          </h2>
+        </Link>
+
 
         <Image
         src = {"/plzwork.png"}
